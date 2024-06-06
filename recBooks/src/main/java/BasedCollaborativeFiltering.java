@@ -1,9 +1,11 @@
+package main.java;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class BasedCollaborativeFiltering implements  IAlgoMachineLearning{
+public class BasedCollaborativeFiltering implements IAlgoMachineLearning {
     private Map<Integer, Map<Integer, Integer>> userItemRate; // user_id -> (item_id -> rating)
     private Map<Integer, Map<Integer, Double>> userSimilar;
 

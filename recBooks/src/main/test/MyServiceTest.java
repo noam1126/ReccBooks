@@ -1,3 +1,7 @@
+package main.test;
+
+import main.java.BasedCollaborativeFiltering;
+import main.java.BasedRecommender;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
